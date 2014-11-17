@@ -6,7 +6,8 @@ call pathogen#infect()
 " Configure solarized 
 set background=dark
 " solarized options 
-let g:solarized_termcolors = 256
+let g:solarized_termcolors = 16
+let g:solarized_termtrans = 1
 colorscheme solarized
 
 " Enable syntax highlighting
